@@ -438,7 +438,7 @@
     }
     .stats-grid {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       gap: 0;
       max-width: 1160px;
       margin: 0 auto;
@@ -1044,7 +1044,6 @@
     width: 100%;
     justify-content: center;
   }
-  .services-grid { grid-template-columns: 1fr; }
 }
   </style>
 </head>
